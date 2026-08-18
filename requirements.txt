@@ -1,0 +1,14 @@
+# Core numerical / plotting / FITS stack — installable from PyPI.
+numpy>=1.20
+matplotlib>=3.5
+astropy>=5.0
+
+# tkinter (GUI toolkit) ships with the standard Python install on most
+# platforms. On Debian/Ubuntu it is a separate OS package if missing:
+#   sudo apt install python3-tk
+
+# casperfpga talks to the FPGA over katcp and is NOT distributed on PyPI.
+# Install it from the CASPER GitHub repo instead, e.g.:
+#   pip install git+https://github.com/casper-astro/casperfpga.git
+# or clone it and `pip install -e .` from a local checkout.
+# See README.md > Installation for details.
